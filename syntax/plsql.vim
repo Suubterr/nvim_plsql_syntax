@@ -341,8 +341,8 @@ if version >= 508 || !exists("did_plsql_syn_inits")
     HiLink plsqlTrigger         Function
     HiLink plsqlTypeAttribute   StorageClass
     HiLink plsqlTodo            Todo
-    HiLink plsqlParameter       Identifier
-    HiLink plsqlVariable        Identifier
+    HiLink plsqlParameter       Todo
+    HiLink plsqlVariable        Todo
 
     delcommand HiLink
 endif
