@@ -237,8 +237,8 @@ syn match   plsqlStringLiteral  "'\([^']\|''\)*'"
 syn keyword plsqlBooleanLiteral TRUE FALSE NULL
 
     " variables"
-syn match plsqlParameter "\<p_[A-Za-z0-9_]*>"
-syn match plsqlVariable  "\<v_[A-Za-z0-9_]*>"
+syn match plsqlParameter "p_[A-Za-z0-9_]*"
+syn match plsqlVariable  "v_[A-Za-z0-9_]*"
 
 
     " The built-in types.
