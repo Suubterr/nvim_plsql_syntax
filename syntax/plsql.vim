@@ -236,6 +236,10 @@ syn match   plsqlCharLiteral    "'[^']'"
 syn match   plsqlStringLiteral  "'\([^']\|''\)*'"
 syn keyword plsqlBooleanLiteral TRUE FALSE NULL
 
+    " variables"
+syn match plsqlParameter "p\_[A-Za-z0-9]*"
+syn match plsqlVariable  "v\_[A-Za-z0-9]*"
+
 
     " The built-in types.
 
